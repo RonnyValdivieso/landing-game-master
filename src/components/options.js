@@ -13,7 +13,9 @@ function Options(props) {
 			const index = options.indexOf(op);
 			return (
 				<li key={index}>
-					<button onClick={() => handleClick(op)}>{op.text}</button>
+					{questionId !== 5 
+					? <button onClick={() => handleClick(op)}>{op.text}</button> 
+					: <a href={op.answer} target="_blank" rel="noreferrer">{op.text}</a>}
 				</li>
 			);
 		});

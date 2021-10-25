@@ -33,7 +33,7 @@ const Terminal = () => {
 				<Typist key={step.id} 
 								// onCharacterTyped={play}
 								onTypingDone={() => { showOptions(); stop();} } avgTypingDelay={60}>
-					{/* {step.text} */}
+					{step.text}
 					<br/>
 					<br/>
 					<Typist.Delay ms={800}/>
