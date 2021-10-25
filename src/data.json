@@ -31,7 +31,7 @@
 		{
 			"id": 1,
 			"text": "Hay una chica que siempre le ha gustado.",
-			"question": "¿Crees que debería hacer algo para conquistarla?",
+			"question": "¿Qué debería hacer primero para comenzar a conquistarla?",
 			"options": [
 				{
 					"text": "Besarla.",
@@ -46,7 +46,7 @@
 				{
 					"text": "Dedicarle una canción.",
 					"answer": "Mentalidad de tiburón jajaja los detalles son clave, pero podemos dejarlo para más adelante, primero debe conocerla y dedicarle tiempo",
-					"nextOption": 3
+					"nextOption": 1
 				}
 			]
 		},
@@ -61,7 +61,7 @@
 					"nextOption": 2
 				},
 				{
-					"text": "Creo que tiene una oportunidad",
+					"text": "Creo que tiene una oportunidad, debería hablarle.",
 					"answer": "",
 					"nextOption": 3
 				}
@@ -85,7 +85,7 @@
 				{
 					"text": "Escribirle todos los días.",
 					"answer": "Me parece ya han chateado mucho y seguro un par de llamadas, es hora de que se vean en persona y le diga lo que siente.",
-					"nextOption": 4
+					"nextOption": 3
 				}
 			]
 		},

@@ -31,8 +31,11 @@ code {
   border: 5px solid #333;
   text-align: left; */
   max-width: 800px;
-  height: 400px;
+  height: 600px;
   font-size: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .terminal-content {
   padding: 5px 15px;
@@ -68,8 +71,11 @@ code {
 }
 
 .option-answer {
-  border: none;
-  background-color: transparent;
+  border: none !important;
+  background-color: transparent !important;
+}
+.option-answer button {
+  color: #f55 !important;
 }
 
 @media screen and (max-width: 480px) {
