@@ -48,6 +48,11 @@ code {
   margin: 0 auto;
 }
 
+#options ul li {
+  background-color: #0e0943;
+  border: 3px solid  #aaa2ff;
+  margin: 2px 0;
+}
 #options ul li * {
   font-family: 'Odibee Sans', 'Disket-Mono-Regular';
   cursor: pointer;
@@ -62,12 +67,17 @@ code {
   padding-top: 30px;
 }
 
+.option-answer {
+  border: none;
+  background-color: transparent;
+}
+
 @media screen and (max-width: 480px) {
   #terminal {
     max-width: 300px;
-    font-size: 20px;
+    font-size: 22px;
   }
   #options ul li * {
-    font-size: 20px;
+    font-size: 24px;
   }
 }

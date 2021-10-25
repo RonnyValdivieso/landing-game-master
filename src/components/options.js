@@ -1,9 +1,13 @@
+import { useState } from "react";
+
 function Options(props) {
 	const questionId = props.questionId;
 	const	options = props.options;
+	const [customClass, setClass] = useState('');
 	const handleClick = (op) => {
 		if (questionId === op.nextOption) {
 			op.text = op.answer;
+			setClass('option-answer');
 		}
 		props.onSelectedOption(op.nextOption);
 	}
