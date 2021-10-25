@@ -1,0 +1,137 @@
+{
+	"intro": {
+		"text": "Hola! Soy el game master y quiero que ayudes a Marcelo a darle click al amor 💗",
+		"question": "¿Estás listo?",
+		"options": [
+			{
+				"text": "Empezar",
+				"answer": "",
+				"nextOption": 0
+			}
+		]
+	},
+	"options": [
+		{
+			"id": 0,
+			"text": "Marcelo es una persona que no es tan creyente en el amor, ve las relaciones de otros como algo que no le va a pasar, en el fondo busca amor pero no ha tenido la oportunidad.",
+			"question": "¿Crees que podamos hacerlo creer?",
+			"options": [
+				{
+					"text": "Sí",
+					"answer": "",
+					"nextOption": 1
+				},
+				{
+					"text": "No",
+					"answer": "",
+					"nextOption": 2
+				}
+			]
+		},
+		{
+			"id": 1,
+			"text": "Hay una chica que siempre le ha gustado.",
+			"question": "¿Crees que debería hacer algo para conquistarla?",
+			"options": [
+				{
+					"text": "Besarla.",
+					"answer": "(wow) Demasiado rápido, elige otra respuesta",
+					"nextOption": 1
+				},
+				{
+					"text": "Conocerla y dedicarle tiempo.",
+					"answer": "Definitivamente es el primer paso",
+					"nextOption": 3
+				},
+				{
+					"text": "Dedicarle una canción.",
+					"answer": "Mentalidad de tiburón jajaja los detalles son clave, pero podemos dejarlo para más adelante, primero debe conocerla y dedicarle tiempo",
+					"nextOption": 3
+				}
+			]
+		},
+		{
+			"id": 2,
+			"text": "Hay una chica que siempre le ha gustado.",
+			"question": "¿Crees que debería hacer algo para conquistarla?",
+			"options": [
+				{
+					"text": "Probablemente el amor no sea para él.",
+					"answer": "El amor es para todos y sabemos que Marcelo lo encontrará algún día.",
+					"nextOption": 2
+				},
+				{
+					"text": "Creo que tiene una oportunidad",
+					"answer": "",
+					"nextOption": 3
+				}
+			]
+		},
+		{
+			"id": 3,
+			"text": "Ahora que ya se conocen él y ella...",
+			"question": "¿Cuál crees que sería el siguiente paso?",
+			"options": [
+				{
+					"text": "Invitarla a cenar.",
+					"answer": "Sería una gran oportunidad para hablar de sus sentimientos.",
+					"nextOption": 4
+				},
+				{
+					"text": "Ahora si besarla.",
+					"answer": "😒 wait cálmate!",
+					"nextOption": 3
+				},
+				{
+					"text": "Escribirle todos los días.",
+					"answer": "Me parece ya han chateado mucho y seguro un par de llamadas, es hora de que se vean en persona y le diga lo que siente.",
+					"nextOption": 4
+				}
+			]
+		},
+		{
+			"id": 4,
+			"text": "Ella está ilusionada pero aún no se atreve a tener una relación.",
+			"question": "¿Qué debería hacer Marcelo?",
+			"options": [
+				{
+					"text": "Rendirse.",
+					"answer": "no, no noo!! Espera vaquero, tiempo al tiempo.",
+					"nextOption": 4
+				},
+				{
+					"text": "Ser sólo su amigo.",
+					"answer": "¿Todo eso para quedar en la friendzone?",
+					"nextOption": 4
+				},
+				{
+					"text": "Ser paciente y seguir en contacto.",
+					"answer": "¡Exacto! Es verdad que no todo termina como uno espera, pero hacerle saber que estás para ella es lo mejor.",
+					"nextOption": 5
+				}
+			]
+		},
+		{
+			"id": 5,
+			"text": "Ella le ha contado sus sentimientos, gracias al espacio/tiempo que Marcelo le dio. Ahora son pareja",
+			"question": "¿Qué debería hacer Marcelo para demostrar cuán feliz está?",
+			"options": [
+				{
+					"text": "Dedicarle una canción.",
+					"answer": "https://youtube.com",
+					"nextOption": null
+				},
+				{
+					"text": "Ahora sí besarla.",
+					"answer": "https://instagram.com",
+					"nextOption": null
+				},
+				{
+					"text": "Todas las anteriores.",
+					"answer": "https://smartlink",
+					"nextOption": null
+				}
+			]
+		}
+	]
+}
