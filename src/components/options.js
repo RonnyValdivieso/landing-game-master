@@ -11,7 +11,12 @@ function Options(props) {
 			var elements = document.querySelectorAll('.option');
 			var currentElement = Array.from(elements)
 				.filter(x => x.getAttribute('data-key') == index)[0];
-			currentElement.className = 'wrong-answer';
+
+			if (!!currentElement) 
+			{
+				currentElement.className = 'wrong-answer';
+				currentElement.setAttribute('disable', true);
+			}
 		}
 		props.onSelectedOption(op.nextOption);
 	}
