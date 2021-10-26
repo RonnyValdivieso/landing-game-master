@@ -9,13 +9,13 @@ const Terminal = () => {
 	let options = data.options;
 	const [currentStepId, setStepId] = useState(-1);
 	const [step, setStep] = useState(data.intro);
-	const [play, {stop}] = useSound('/sounds/Voz-015.mp3', {volume: 0.1});
+	const [play, {stop}] = useSound('/sounds/canciondeamor.mp3', {volume: 0.1});
 
 	const [show, setShowOptions] = useState(false);
   const showOptions = () => setShowOptions(true);
 	const onSelectedOption = (id) => {
-		console.log('id seleccionado', id);
-		console.log('current id', currentStepId);
+		if (id == 0) play();
+		
 		const nextStep = options.filter(x => x.id === id)[0];
 		setStep({...nextStep});
 		// setShowOptions(false);
@@ -32,7 +32,7 @@ const Terminal = () => {
 				{/* {step.text} */}
 				<Typist key={step.id} 
 								// onCharacterTyped={play}
-								onTypingDone={() => { showOptions(); stop();} } avgTypingDelay={60}>
+								onTypingDone={() => showOptions() } avgTypingDelay={60}>
 					{step.text}
 					<br/>
 					<br/>
