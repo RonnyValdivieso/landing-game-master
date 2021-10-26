@@ -1,19 +1,17 @@
 import { useState } from "react";
+import SweetAlert from 'sweetalert2-react';
 
 function Options(props) {
 	const questionId = props.questionId;
 	const	options = props.options;
-	const [customClass, setClass] = useState('');
+	const [alert, showAlert] = useState({show: false, text: ""});
 	const handleClick = (op, index) => {
 		if (questionId === op.nextOption) {
-			op.text = op.answer;
-			// setClass('option-answer');
+			showAlert({show: true, text: op.answer});
 			var elements = document.querySelectorAll('.option');
-			console.log(elements);
 			var currentElement = Array.from(elements)
 				.filter(x => x.getAttribute('data-key') == index)[0];
-			console.log(currentElement);
-			currentElement.className = 'option-answer';
+			currentElement.className = 'wrong-answer';
 		}
 		props.onSelectedOption(op.nextOption);
 	}
@@ -31,7 +29,15 @@ function Options(props) {
 		});
 
 		return (
-			<ul>{items}</ul>
+			<div>
+				<ul>{items}</ul>
+				<SweetAlert
+					show={alert.show}
+					title=""
+					text={alert.text}
+					onConfirm={() => showAlert({show: false, text: ""})}
+				/>
+			</div>
 		);
 	}
 

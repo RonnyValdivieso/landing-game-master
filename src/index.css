@@ -31,7 +31,7 @@ code {
   border: 5px solid #333;
   text-align: left; */
   max-width: 800px;
-  height: 600px;
+  /* height: 600px; */
   font-size: 38px;
   display: flex;
   flex-direction: column;
@@ -54,7 +54,7 @@ code {
 #options ul li {
   background-color: #0e0943;
   border: 3px solid  #aaa2ff;
-  margin: 2px 0;
+  margin: 4px 0;
 }
 #options ul li * {
   font-family: 'Odibee Sans', 'Disket-Mono-Regular';
@@ -75,8 +75,25 @@ code {
   border: none !important;
   background-color: transparent !important;
 }
-.option-answer button {
-  color: #f55 !important;
+.wrong-answer {
+  border: none !important;
+  background-color: transparent !important;
+}
+.wrong-answer button {
+  color: rgb(134, 134, 134) !important;
+  text-decoration: line-through !important;
+  cursor: auto !important;
+}
+
+.swal2-popup {
+  background-color: #080528 !important;
+}
+.swal2-popup #swal2-content {
+  font-size: 20px !important;
+  color: rgb(226, 226, 226) !important;
+}
+.swal2-popup .swal2-styled.swal2-confirm {
+  background-color: rgb(102 97 153) !important;
 }
 
 @media screen and (max-width: 480px) {
