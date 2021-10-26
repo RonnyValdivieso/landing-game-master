@@ -15,7 +15,9 @@ body {
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
-  background-image: url(./assets/images/bg.jpg);
+  background-image: url(./assets/images/bg-2.jpg);
+  background-position: center;
+  background-size: cover;
 }
 .App-header {
   background-color: transparent !important;
@@ -52,8 +54,8 @@ code {
 }
 
 #options ul li {
-  background-color: #0e0943;
-  border: 3px solid  #aaa2ff;
+  background-color: #002d6e;
+  border: 3px solid #dddddd;
   margin: 4px 0;
 }
 #options ul li * {
@@ -86,14 +88,14 @@ code {
 }
 
 .swal2-popup {
-  background-color: #080528 !important;
+  background-color: #002d6e !important;
 }
 .swal2-popup #swal2-content {
   font-size: 20px !important;
   color: rgb(226, 226, 226) !important;
 }
 .swal2-popup .swal2-styled.swal2-confirm {
-  background-color: rgb(102 97 153) !important;
+  background-color: #2d337f !important;
 }
 
 @media screen and (max-width: 480px) {
